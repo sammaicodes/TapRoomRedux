@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 function Keg(props){
+
   return (
     <React.Fragment>
       <h3>Name: {props.name}</h3>
@@ -9,6 +10,8 @@ function Keg(props){
       <h3>Price: ${props.price}</h3>
       <h3>Alcohol Content: <em>{props.alcoholContent}</em></h3>
       <h3>Pint Stock: {props.pintStock}</h3>
+      {/* <button onClick={this.handleClick}>Sell 1+ Pint</button> */}
+      <button>Sell 1+ Pint</button>
       <hr/>
     </React.Fragment>
   );
