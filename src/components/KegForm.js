@@ -10,7 +10,8 @@ function KegForm(props){
       name: event.target.name.value,
       brand: event.target.brand.value, 
       price: event.target.price.value,
-      alcoholContent: event.target.alcoholContent.value, 
+      alcoholContent: event.target.alcoholContent.value,
+      pintStock: 124, 
       id: v4()});
   }
 
@@ -33,7 +34,12 @@ function KegForm(props){
         type='text'
         name='alcoholContent'
         placeholder='Alcohol Content' />
-      
+      <input
+        type='hidden'
+        name='pintStock' 
+        id='currentStock'/>
+      <label for='currentStock'>Current Pint Stock</label>
+        
       <button type='submit'>Add Keg!</button>
     </form>
   </React.Fragment>
