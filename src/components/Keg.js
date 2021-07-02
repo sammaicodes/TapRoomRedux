@@ -4,11 +4,11 @@ import PropTypes from "prop-types";
 function Keg(props){
   return (
     <React.Fragment>
-      <h3>{props.name}</h3>
-      <h3>{props.brand}</h3>
-      <h3>{props.price}</h3>
-      <p><em>{props.alcoholContent}</em></p>
-      <h3>{props.pintStock}</h3>
+      <h3>Name: {props.name}</h3>
+      <h3>Brand: {props.brand}</h3>
+      <h3>Price: ${props.price}</h3>
+      <h3>Alcohol Content: <em>{props.alcoholContent}</em></h3>
+      <h3>Pint Stock: {props.pintStock}</h3>
       <hr/>
     </React.Fragment>
   );

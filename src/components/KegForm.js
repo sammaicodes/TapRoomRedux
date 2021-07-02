@@ -21,24 +21,26 @@ function KegForm(props){
       <input
         type='text'
         name='name'
-        placeholder='Name' />
+        placeholder='Name' 
+        required />
       <input
         type='text'
         name='brand'
-        placeholder='Brand' />
+        placeholder='Brand' 
+        required />
       <input
         type='text'
         name='price'
-        placeholder='Price' />
+        placeholder='Price' 
+        required />
       <input
         type='text'
         name='alcoholContent'
-        placeholder='Alcohol Content' />
+        placeholder='Alcohol Content' 
+        required />
       <input
         type='hidden'
-        name='pintStock' 
-        id='currentStock'/>
-      <label for='currentStock'>Current Pint Stock</label>
+        name='pintStock'/>
         
       <button type='submit'>Add Keg!</button>
     </form>
