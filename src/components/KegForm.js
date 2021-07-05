@@ -11,7 +11,7 @@ function KegForm(props){
       brand: event.target.brand.value, 
       price: event.target.price.value,
       alcoholContent: event.target.alcoholContent.value,
-      pintStock: 5, 
+      pintStock: 124, 
       id: v4()});
   }
 
