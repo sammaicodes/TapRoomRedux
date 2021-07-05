@@ -34,7 +34,7 @@ _In brief, this project allows a user to add indefinite taps and see individual 
     * _Visit the app via the browser: 'localhost:3000/'_
 
 ## Component Diagram
-  ![Diagram](/tapDiagram.png)
+  ![Diagram](/tapDiagram.PNG)
 
 ## Known Bugs
 
