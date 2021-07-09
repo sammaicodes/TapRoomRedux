@@ -7,7 +7,7 @@ export const addKeg = keg => {
     name: `Belgian White`,
     brand: `Blue Moon`,
     price: `8.00`,
-    // alcoholContent: `5%`, 
+    alcoholContent: `5%`, 
     pintStock:`5`,
     id: 1,
   }
