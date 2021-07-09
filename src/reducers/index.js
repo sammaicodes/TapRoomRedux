@@ -5,7 +5,7 @@ import kegListReducer from './keg-list-reducer'
 const rootReducer = combineReducers(
   {
     formVisibleOnPage: formVisibleReducer,
-    // masterKegList: kegListReducer,
+    masterKegList: kegListReducer,
   }
 )
 
