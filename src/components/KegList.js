@@ -1,18 +1,14 @@
+
 import React from "react";
 import Keg from "./Keg";
 import PropTypes from "prop-types";
 
 function KegList(props){
 
-  const myStyledComponentStyles = {
-    backgroundColor: '#ffa500',
-    fontFamily: 'sans-serif',
-    paddingTop: '50px'
-  }
+  
   return (
-    <div style={myStyledComponentStyles}>
-    <hr />
     <React.Fragment>
+      <hr />
       {Object.values(props.kegList).map((keg) =>
         <Keg
           whenKegClicked={props.onKegSelection}
@@ -26,7 +22,6 @@ function KegList(props){
           key={keg.id} />
       )}
     </React.Fragment>
-    </div>
   );
 }
 
