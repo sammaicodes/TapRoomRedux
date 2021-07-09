@@ -1,6 +1,6 @@
 # Tap Room
 
-####  A Project Exploring Basic React and JSX
+####  A Project Exploring Basic React, Redux, and JEST
 
 #### By _**Sammai Gutierrez**_
 
@@ -14,10 +14,11 @@
 * _node.js_
 * _create-react-app_
 * _www.draw.io_
-
+* _Redux_
+* _JEST_
 ## Description
 
-_In brief, this project allows a user to add indefinite taps and see individual tap details. The user has the ability to decrement the number of taps._
+_In brief, this project allows a user to add indefinite taps and see individual tap details. The user has the ability to decrement the number of taps. All state in the app is handled by Redux. Reducers are tested, action creators and constants are used._
 
 ## Pre-requisites
 
@@ -30,8 +31,10 @@ _In brief, this project allows a user to add indefinite taps and see individual 
 ## Installation Instruction
 1.  
     * _Clone the repository with command `$ git clone gitHub-URL-repository`_
-    * _Navigate to the Project folder and run the command `$npm start`
+    * _Navigate to the project folder and run the command `$npm start`
     * _Visit the app via the browser: 'localhost:3000/'_
+    * _To test reducers, navigate to the project folder and run the command `$npm test`
+
 
 ## Component Diagram
   ![Diagram](/tapDiagram.PNG)
