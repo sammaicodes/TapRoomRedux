@@ -7,4 +7,38 @@ describe(`kegListReducer`, () => {
     expect(kegListReducer({}, { type: null })).toEqual({})
   })
 
+  let action
+  const kegData = {
+    name: `Belgian White`,
+    brand: `Blue Moon`,
+    price: `8.00`,
+    alcoholContent: `5%`, 
+    pintStock:`5`,
+    id: 1,
+  }
+  
+  test(`Should successfully add new keg data to masterKegList`, () => {
+    const { name, brand, price, alcoholContent, pintStock, id } = kegData
+    action = {
+      type: c.ADD_KEG,
+      name,
+      brand,
+      price,
+      alcoholContent,
+      pintStock,
+      id,
+    }
+
+    expect(kegListReducer({}, action)).toEqual({
+      [id]: {
+        name,
+        brand,
+        price,
+        alcoholContent,
+        pintStock,
+        id,
+      },
+    })
+  })
+
 })
