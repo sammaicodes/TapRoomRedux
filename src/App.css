@@ -2,6 +2,9 @@ body {
   background: linear-gradient(#6e4848, #f90) fixed;
   color: white;
 }
+button {
+  background-color: #FF5733;
+}
 
 .App {
   text-align: center;
