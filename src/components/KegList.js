@@ -11,6 +11,7 @@ function KegList(props){
   }
   return (
     <div style={myStyledComponentStyles}>
+    <hr />
     <React.Fragment>
       {Object.values(props.kegList).map((keg) =>
         <Keg
