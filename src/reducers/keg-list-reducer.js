@@ -14,7 +14,7 @@ export default (state = {}, action) => {
           id,
         } }
     default:
-      return "idk"
+      return state
   }
 }
 
